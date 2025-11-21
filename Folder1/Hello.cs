@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace BuenaCalculator.Folder1
 {
-    internal class Hello
+    public class Hello
     {
+        public void greetings ()
+        {
+            Console.WriteLine("Hello World");
+        }
     }
 }
